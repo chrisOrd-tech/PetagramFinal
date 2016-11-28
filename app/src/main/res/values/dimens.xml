@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="hueso">35dp</dimen>
+    <dimen name="perro">300dp</dimen>
+    <dimen name="margin_hueso">10dp</dimen>
+    <dimen name="ancho_nombre">190dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="margin_top_desarrollador">150dp</dimen>
+    <dimen name="text_desarrollador">40dp</dimen>
+    <dimen name="circular_image">100dp</dimen>
+</resources>

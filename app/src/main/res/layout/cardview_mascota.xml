@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius='@dimen/corner_radius'>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/hueso">
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="@dimen/perro"
+            android:layout_height="@dimen/perro"
+            android:src="@drawable/perro1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="@dimen/hueso"
+                android:layout_height="@dimen/hueso"
+                android:background="@drawable/dog_bone_48"
+                android:layout_marginLeft="@dimen/margin_hueso" />
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:layout_width="@dimen/ancho_nombre"
+                android:layout_height="wrap_content"
+                android:text="Hola"
+                android:textSize="@dimen/hueso"/>
+
+            <TextView
+                android:id="@+id/tvRaiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="@dimen/hueso"/>
+
+            <ImageButton
+                android:id="@+id/btnRaiting"
+                android:layout_width="@dimen/hueso"
+                android:layout_height="@dimen/hueso"
+                android:background="@drawable/dog_bone_48"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TareaMascotas</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="nombre_contacto">Nombre completo</string>
+    <string name="correo_contacto">Email</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="btn_enviar">Enviar Mensaje</string>
+    <string name="desarrollador">Ing. Adolfo Orduña</string>
+    <string name="mi_mascota">Tasha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
